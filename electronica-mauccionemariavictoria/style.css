@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: o;
+}
+
+body {
+  background-color: black;
+}
+
+.jumbotron {
+  background-image: url(multimedia/imagenes/banner.webp);
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  color: white;
+  border-radius: 0%;
+  margin: 0%;
+  text-transform: capitalize;
+}
+
+.jumbotron h1 {
+  color: rosybrown;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.navbar-brand {
+  color: rosybrown !important;
+}
+
+h2 {
+  background-image: url(multimedia/layered-waves-haikei.svg);
+  text-align: center;
+  background-color: rosybrown;
+  padding: 1px;
+  text-transform: capitalize;
+}
+
+.btn-warning {
+  background-color: black;
+  border: black;
+}
+
+.btn-warning:hover {
+  background-color: rosybrown;
+}
+
+.row-producto {
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  gap: 5%;
+  text-transform: capitalize;
+}
+
+.card {
+  border: rosybrown;
+  margin-bottom: 5px;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.map {
+  margin: auto;
+}
+
+.contacto {
+  margin: auto;
+}
+
+.logo2 i {
+  color: rosybrown;
+  background-color: black;
+  font-size: 40px;
+}
+
+.boton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  --glow-color: rgb(10, 10, 10);
+  --glow-spread-color: rgba(188, 184, 192, 0.781);
+  --enhanced-glow-color: rgb(243, 241, 245);
+  --btn-color:rgb(78, 76, 78);
+  border: 0.25em solid var(--glow-color);
+  padding: 1em 3em;
+  color: var(--glow-color);
+  font-size: 15px;
+  font-weight: bold;
+  background-color: var(--btn-color);
+  border-radius: 1em;
+  outline: none;
+  -webkit-box-shadow: 0 0 1em 0.25em var(--glow-color), 0 0 4em 1em var(--glow-spread-color), inset 0 0 0.75em 0.25em var(--glow-color);
+          box-shadow: 0 0 1em 0.25em var(--glow-color), 0 0 4em 1em var(--glow-spread-color), inset 0 0 0.75em 0.25em var(--glow-color);
+  text-shadow: 0 0 0.5em var(--glow-color);
+}
+
+.boton ::after {
+  position: absolute;
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: var(--glow-spread-color);
+  opacity: .7;
+  -webkit-transform: perspective(1.5em) rotateX(35deg) scale(1, 0.6);
+          transform: perspective(1.5em) rotateX(35deg) scale(1, 0.6);
+}
+
+.boton :hover {
+  color: var(--btn-color);
+  background-color: var(--glow-color);
+  -webkit-box-shadow: 0 0 1em 0.25em var(--glow-color), 0 0 4em 2em var(--glow-spread-color), inset 0 0 0.75em 0.25em var(--glow-color);
+          box-shadow: 0 0 1em 0.25em var(--glow-color), 0 0 4em 2em var(--glow-spread-color), inset 0 0 0.75em 0.25em var(--glow-color);
+}
+
+.boton :active {
+  -webkit-box-shadow: 0 0 0.6em 0.25em var(--glow-color), 0 0 2.5em 2em var(--glow-spread-color), inset 0 0 0.5em 0.25em var(--glow-color);
+          box-shadow: 0 0 0.6em 0.25em var(--glow-color), 0 0 2.5em 2em var(--glow-spread-color), inset 0 0 0.5em 0.25em var(--glow-color);
+}
+
+.carousel-inner {
+  display: -ms-grid;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
